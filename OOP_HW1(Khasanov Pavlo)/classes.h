@@ -8,6 +8,10 @@ private:
     int numerator = 0;
     int denominator = 0;
 public:
+    Fraction operator+(Fraction& fr) {
+        return add(fr);
+    }
+
     bool setNumerator(int num) {
         if (num != 0) {
             numerator = num;

@@ -57,7 +57,7 @@ int main()
             frRes = fr1.division(fr2);
             break;
         case '+':
-            frRes = fr1.add(fr2);
+            frRes = fr1 + fr2;
             break;
         case '-':
             frRes.subtraction(fr2);

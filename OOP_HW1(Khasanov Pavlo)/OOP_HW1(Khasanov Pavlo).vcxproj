@@ -127,6 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="classes.cpp" />
     <ClCompile Include="function.cpp" />
     <ClCompile Include="OOP_HW1(Khasanov Pavlo).cpp" />
   </ItemGroup>
