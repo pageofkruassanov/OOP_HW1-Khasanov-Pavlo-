@@ -51,16 +51,16 @@ int main()
 
         switch (symbol) {
         case '*':
-            frRes = fr1.multiplication(fr2);
+            frRes = fr1 * fr2;
             break;
         case '/':
-            frRes = fr1.division(fr2);
+            frRes = fr1 / fr2;
             break;
         case '+':
             frRes = fr1 + fr2;
             break;
         case '-':
-            frRes.subtraction(fr2);
+            frRes = fr1 - fr2;
             break;
         }
 

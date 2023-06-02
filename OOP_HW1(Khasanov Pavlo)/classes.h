@@ -11,7 +11,15 @@ public:
     Fraction operator+(Fraction& fr) {
         return add(fr);
     }
-
+    Fraction operator-(Fraction& fr) {
+        return subtraction(fr);
+    }
+    Fraction operator*(Fraction& fr) {
+        return multiplication(fr);
+    }
+    Fraction operator/(Fraction& fr) {
+        return division(fr);
+    }
     bool setNumerator(int num) {
         if (num != 0) {
             numerator = num;
