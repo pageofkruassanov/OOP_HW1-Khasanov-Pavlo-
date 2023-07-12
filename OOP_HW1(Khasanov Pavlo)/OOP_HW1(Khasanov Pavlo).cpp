@@ -2,7 +2,7 @@
 #include "classes.h";
 #include "function.h"
 #include <Windows.h>
-using namespace std;
+using namespace MyFraction;
 
 int main()
 {

@@ -1,7 +1,7 @@
 #pragma once
 #include <iostream>
 #include "classes.h"
-using namespace std;
+using namespace MyFraction;
 
 void checkInput();
 
